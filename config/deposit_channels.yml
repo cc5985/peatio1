@@ -1,0 +1,26 @@
+- id: 200
+  key: satoshi
+  currency: btc
+  sort_order: 1
+  min_confirm: 1
+  max_confirm: 3
+- id: 400
+  key: bank
+  currency: cny
+  sort_order: 2
+  bank_accounts:
+    -
+      bank: 'Your Bank Name'
+      branch: 'Your Bank Branch'
+      holder: 'Your Account Holder'
+      account: 'Your Account Number'
+
+- id: 500
+  key: Stock001
+  currency: s01
+  sort_order: 3
+
+- id: 600
+  key: Shang
+  currency: szzs
+  sort_order: 4
