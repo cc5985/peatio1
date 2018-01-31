@@ -4,7 +4,7 @@ server {
   passenger_enabled on;
   gzip on;
 
-  root /home/cc5985/peatio-master/public;
+  root /home/peatio-master/public;
 
   location = /favicon.png {
     expires    max;
